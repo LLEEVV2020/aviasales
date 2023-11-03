@@ -1,8 +1,9 @@
 import React from 'react'
-import './app.css'
+
+import classes from './App.module.scss'
 
 function App() {
-  return <section className="content">avia</section>
+  return <section className={classes['app']}>Aviasales</section>
 }
 
 export default App
