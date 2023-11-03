@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Logo from '../Logo'
+import Filters from '../Filters'
 
 import classes from './App.module.scss'
 
@@ -10,7 +11,7 @@ function App() {
       <Logo />
       <div className={classes['app__body']}>
         <div className={classes['app__left-column']}>
-          <p>Filters</p>
+          <Filters className={classes['app__filters']} />
         </div>
         <div className={classes['app__right-column']}>
           <p>Sorting</p>
