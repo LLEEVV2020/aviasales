@@ -27,3 +27,4 @@ npm  run build
 npm install moment --save-dev 
 
 npm  install sass 
+npm install antd --save-dev
